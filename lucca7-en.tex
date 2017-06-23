@@ -1,0 +1,194 @@
+\documentclass[12pt,oneside,a4paper]{article}
+
+\usepackage[cm]{fullpage} % all margins in 1.5cm
+\usepackage[T1]{fontenc}        % pacote para conj. de caracteres correto
+\usepackage[utf8]{inputenc}	    % pacote para acentuação
+\usepackage{graphicx}
+\usepackage{multirow} % para ter multicolumn{columns}{position}{stuff}
+\usepackage{lmodern}            % fontes mais gerais
+%\usepackage[normalem]{ulem} % sout (tachado)
+
+
+\newcommand{\makeheading}[3] {
+  \begin{minipage}[t]{\textwidth}
+    \begin{minipage}[t]{0.75\textwidth}
+        {\Huge\bfseries{#1}} \\
+        Focusing on software development with open source platforms
+       % Maybe change it to linkedin and github?
+     \end{minipage}%
+     \begin{minipage}[t]{0.25\textwidth}
+            #2 \\ #3
+     \end{minipage}
+     \rule{\columnwidth}{1pt}
+  \end{minipage}
+}
+
+\setlength{\parindent}{0in}
+\pagestyle{empty}
+
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.1}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+\usepackage{paralist}
+
+\begin{document}
+
+% corrige a margem lateral para 1.5 + 1.5 = 3.0
+\addtolength{\oddsidemargin}{0.5cm}
+\addtolength{\evensidemargin}{1.0cm}
+\addtolength{\textwidth}{-1.5cm}
+
+%\makeheading{Ricardo Rodrigues Lucca}{rlucca@gmail.com}{(1) 604/652-2162}
+\makeheading{Ricardo Rodrigues Lucca}{rlucca@gmail.com}{+55 61 98275-0218}
+
+\newlength{\rcollength}\setlength{\rcollength}{1.85in}%
+
+\section*{Certifications \& Skills}
+\addcontentsline{toc}{section}{Certifications \& Skills}
+
+\begin{compactitem}
+	\item \textit{ISTQB - } Certified Tester Foundation Level (CTFL). April 2015.
+	\item \textit{Scrum.org - } Professional Scrum Master I (PSM1). February 2015.
+  \item Lived at Vancouver (British Columbia, Canada) between March 2012 to 2013.\\
+  \begin{minipage}{0.5\textwidth}
+	\item Strong troubleshooting skills.
+  \item Ask and knowledge sharing person.
+  \item Languages: English and Portuguese.
+  \end{minipage}
+  \begin{minipage}{0.5\textwidth}
+	\item Proactive.
+  \item Capable of work in group or alone.
+	\item Detail-oriented person.
+  \end{minipage}
+\end{compactitem}
+
+\section*{Technical Skills}
+\addcontentsline{toc}{section}{Technical Skills}
+
+\begin{compactitem}
+	\item \textit{Applications:} Git, GNU Debugger, GNU Make, Valgrind, Vim, Ssh, TcpDump...
+	\item \textit{Building Systems:} Yocto Project, Linux From Scratch.
+	\item \textit{Continuous Integration:} Buildbot, Gerrit, GitLab, Jenkins, SonarQube...
+  \item \textit{Databases:} Oracle (8i and 9g), PostgreSQL, MySQL, SQLite...
+  \item \textit{Libraries:} Boost, DL, IniParser, Standard Template Library (STL), MySQL, XML-RPC...
+	\item \textit{Programming Languages:} C/C++, C\#, Java, Prolog, Python, Shell script...
+	%\item \textit{Operating Systems:} Capable of using Windows family, Linux and Mac OS.
+	\item Medium knowledge of design patterns.
+\end{compactitem}
+
+\section*{Education}
+\addcontentsline{toc}{section}{Education}
+
+\begin{compactitem}%[$\circ$]
+  \item Federal University of Rio Grande do Sul, \href{http://www.ufrgs.br}{UFRGS}, Porto Alegre/RS - Brazil.
+		\\ \textbf{Master of Science}, \href{http://www.inf.ufrgs.br}{Computation}, 2010-2012.
+  \item Vale do Rio dos Sinos University, \href{http://www.unisinos.br}{UNISINOS}, São Leopoldo/RS - Brazil.
+		\\ Bachelor of Science, \href{http://www.inf.unisinos.br}{Computer Science}, 2003-2009.
+\end{compactitem}
+
+\section*{Work Experience}
+\addcontentsline{toc}{section}{Work Experience}
+
+\begin{compactitem}
+  \item [ ] Canada
+	%\item \underline{Information Planet Canada (Volunteer – Administrative Assistant) - November 2012-April 2013}
+	\item \underline{Volunteer as Admistrative Assistant - November 2012-April 2013}
+    \begin{compactitem}
+       \item [-] \href{http://www.informationplanet.ca}{Information Planet Canada} - Travel agency
+       \item [-] Assisted people that have issues with air companies;
+       \item [-] Promoted there business through conversation or handing out flyers;
+    \end{compactitem}
+	\item \underline{Dishwasher - October 2012-April 2013}
+    \begin{compactitem}
+       \item [-] True Confections - Dessert Restaurant
+       %\item [-] True Confections (Dessert Restaurant - +1 604 222 8489)
+       \item [-] Worked washing dishes and doing the cleaning;
+       \item [-] It was a very good opportunity to improve general conversation;
+    \end{compactitem}
+	\item \underline{Volunteer - June 17, 2012}
+    \begin{compactitem}
+       \item [-] Car-Free Vancouver: West End Festival.
+       \item [-] Assisted and guided kids to do hand-craft;
+       \item [-] Promoted recreational activities using english;
+    \end{compactitem}
+  \item [ ]
+  \item [ ] Brazil
+	%\item \underline{\textbf{Expert in Artificial Intelligence} - May 2017-(present)}
+  %  \begin{compactitem}
+  %    \item [-] \href{http://www.istari.com.br}{Istari}
+  %    \item [-] Responsable for automatic information acquisition;
+  %    \item [-] Improving an ontology to keep tract of files and information acquisitted;
+  %  \end{compactitem}
+	\item \underline{Intermediate C Software Developer - October 2013-April 2017}
+    \begin{compactitem}
+      \item [-] \href{http://www.aker.com.br}{Aker Security Solutions} - Business of Information Security Solutions
+      \item [-] Mantained and improved the code bases of the client;
+      \item [-] Leaded a team of 3 to 5 people to keep legacy code;
+      \item [-] Migrated a series of patch in a cache system to other version (2.7 to 3.4);
+      \item [-] Migrated the firewall code bases to support a new kernel (3.17 to 4.2);
+      \item [-] Improved the continuous integration environment in several ways.
+      \begin{compactitem}
+        \item [>] Improved buildbot, jenkins and sonarqube configuration;
+        \item [>] Integrated gerrit with buildbot in a way that buildbot could undestand
+        \\ correctly several commits arriving at the same time;
+        \item [>] Added several steps to generate code quality reports:
+        \begin{compactitem}
+          \item [+] Cyclomatic analysis (through pmccabe and by sonarqube plugin);
+          \item [+] Compiler warings (cppcheck and gcc/g++);
+          \item [+] Unit and Integration test reports and coverage report of them;
+        \end{compactitem}
+        \item [>] Automatically installed CD images (ISOs) after them being generated.
+      \end{compactitem}
+      \item [-] Used C, C++ and Python languages, Qt4, Yocto platform and others.
+    \end{compactitem}
+	\item \underline{Information Technology Technician Level 1 - February 2011-August 2011}
+    \begin{compactitem}
+      \item [-] \href{http://www.banrisul.com.br}{Banrisul} - A public bank in south of Brazil
+      \item [-] To work there is necessary to write a test. I was able to pass in the first call;
+      \item [-] Loved work in their mainframe, writing code in PL/1, Cobol and C\#.
+    \end{compactitem}
+	\item \underline{Master of Science Scholarship – April 2010-January 2011}
+    \begin{compactitem}
+      \item [-] \textit{Advisor:} Rafael Heitor Bordini (\href{http://www.ufrgs.br}{UFRGS})
+      \item [-] \textit{Brazilian Ministry of Education (CAPES)}.
+      \item [-] It was a scholarship to help me to focus on my master degree;
+      %\item [-] Studied multi-agent systems in a framework called Jason writing in Java;
+      \item [-] Studied ontologies, emotion theories and affective computing;
+      \item [-] Used Java, Jason (multi-agent framework), latex and json.
+    \end{compactitem}
+	\item \underline{Full Stack C Developer – November 2006-March 2010}
+    \begin{compactitem}
+      \item [-] \href{http://www.canopusonline.com}{Canopus informática} - Small company that provided outsourcing
+      \item [-] Work was done totally remote, on client site;
+      \item [-] Helped improve a CGI system;
+      \item [-] Improved the process of generate the web server manual automatically;
+      \item [-] Created a system called SGTEC to close without human interation some tasks
+      \\ of service activation. It used dynamic libraries to load the tasks that could be
+      \\ perform to a specific step of a service;
+      \item [-] Maintained and Improved a series of plugin for postfix and dovecot;
+      \item [-] Used mainly C language, libdl, SQL, HTML/JS, XML and others.
+    \end{compactitem}
+	\item \underline{Technological and Industrial Initiation Scholarship – 2005-October 2006}
+    \begin{compactitem}
+		  \item [-] \textit{Advisor:} Soraia Raupp Musse (\href{http://www.unisinos.br}{UNISINOS})
+	    \item [-] \textit{Brazilian National Research Council (CNPq)}.
+      \item [-] Use of interest points to mark positions in a crowd simulation;
+      \item [-] Interest points were a way to do some sort of specific action such as a queue of
+      \\ people or some trying running to get a bus.
+      \item [-] Characters and environment were intelligent in that simulator;
+      \item [-] Used C++ language, OpenSceneGraph library, cal3d library and others.
+    \end{compactitem}
+%		\pagebreak
+	\item \underline{Volunteer Researcher – 2004}
+    \begin{compactitem}
+      \item [-] \textit{Advisor:} Marcelo Walter (\href{http://www.unisinos.br}{UNISINOS})
+      \item [-] Use of quantitative analysis to might extract information from textures;
+      \item [-] A lot of maths was used to rotate points, vector and calculate a voronoi diagram;
+      \item [-] Used C/C++ language and OpenGL only.
+    \end{compactitem}
+\end{compactitem}
+
+\end{document}
